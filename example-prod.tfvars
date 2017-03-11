@@ -4,7 +4,7 @@ terragrunt = {
     backend = "s3"
     config {
       encrypt = "true"
-      bucket  = "example-com-example-prod-straycat-terraform"
+      bucket  = "example-com-example-prod-terraform"
       key     = "example-service.tfstate"
       region  = "us-east-1"
     }
