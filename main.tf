@@ -35,6 +35,14 @@ module "svc" {
 }
 
 // outputs
+output "instance_type" {
+  value = "${module.svc.instance_type}"
+}
+
+output "image_id" {
+  value = "${module.svc.image_id}"
+}
+
 output "launch_config_id" {
   value = "${module.svc.launch_config_id}"
 }
